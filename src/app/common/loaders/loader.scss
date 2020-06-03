@@ -1,0 +1,13 @@
+.loaderWrapper {
+  position: relative;
+}
+
+.loaderContainer {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  background: url("../../assets/images/Loader-1.gif") no-repeat center center
+    fixed;
+  background-size: 50px;
+  height: 200px;
+}

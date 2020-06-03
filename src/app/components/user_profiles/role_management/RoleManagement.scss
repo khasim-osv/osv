@@ -1,0 +1,44 @@
+.modal {
+  width: 100%;
+}
+
+.outline {
+  border: 1px solid #bfc7d0;
+  padding: 2em;
+  width: 60%;
+  display: block;
+}
+
+.addMoreUserLink {
+  text-align: end;
+  color: #5090f8;
+}
+.addItem {
+  color: #5090f8;
+}
+.error {
+  color: #5090f8;
+}
+.flexProps {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+
+.flexProps > button {
+  width: 30%;
+}
+
+.flexProps > div {
+  width: 30%;
+}
+
+.flexItems {
+  width: 50%;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  border: 1px solid #bfc7d0;
+  padding: 1em;
+}

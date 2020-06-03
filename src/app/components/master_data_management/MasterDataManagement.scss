@@ -1,0 +1,79 @@
+@import "../../Styles.scss";
+
+.translationWrapper {
+  display: flex;
+  margin-top: 4em;
+  /*margin-left: 8em;*/
+  font-family: "Avenir-book";
+}
+
+.translationContent {
+  box-shadow: 0 0 6px 0 rgba(191, 199, 208, 0.55);
+  width: 62.5em;
+  padding: 1.25em;
+}
+
+/*input[type="text"],
+input[type="password"] {
+  padding: 0.5em 1em;
+  height: 1.5em;
+  width: 20em;
+  border-radius: 4px;
+  border: solid 1px #dbe1e9;
+  color: #384150;
+  font-size: 14px;
+  font-family: Avenir-Roman;
+}*/
+
+textarea {
+  padding: 0.5em 1em;
+  width: 20em;
+  border-radius: 4px;
+  border: solid 1px #dbe1e9;
+  color: #384150;
+  font-size: 14px;
+  font-family: Avenir-Roman;
+}
+
+.popup-content {
+  background: white !important;
+  width: 27% !important;
+  border-radius: 20px !important;
+}
+.search input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  height: 20.5px !important;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+.search button {
+  float: left;
+  width: 24%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  height: 40.5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+.search {
+  display: inline-block;
+  width: 500px;
+  background-color: "red";
+}
+.leftDiv {
+  width: 500px;
+  float: left;
+}
+.rightDiv {
+  float: right;
+}
+.upperContent {
+  display: inline-block;
+}

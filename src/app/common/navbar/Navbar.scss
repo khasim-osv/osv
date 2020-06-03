@@ -1,0 +1,32 @@
+@import "../../Styles.scss";
+
+nav.navBar {
+  display: block;
+}
+.navBar > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f5fd;
+  padding: 0 7em;
+}
+
+.navBar > ul > li {
+  float: left;
+}
+
+.navBar > ul > li a {
+  display: block;
+  color: #000001;
+  text-align: center;
+  padding: 1.5em 1em;
+  text-decoration: none;
+}
+
+.navBar > ul > li a:hover,
+.navBar > ul > li a:visited,
+.active {
+  border-bottom: 0.1em solid #eb8b2d;
+  font-family: "Avenir-Heavy";
+}

@@ -1,0 +1,39 @@
+.isFlex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+}
+
+.searchBox > form {
+  display: flex;
+}
+
+.title {
+  font-family: "Avenir-Heavy";
+}
+
+.editTitle {
+  font-family: "Avenir-Heavy";
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.logoWrapper {
+  text-align: center;
+  padding-bottom: 1em;
+}
+.close {
+  float: right;
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.modal {
+  margin: 20px;
+}
+
+.clearBtn {
+  position: absolute;
+  margin: 9px -20px;
+}

@@ -1,0 +1,56 @@
+@import "../../../Styles.scss";
+
+.sideNavBarUP > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sideNavBarUP > ul > li {
+  float: none;
+  /*text-align: center;*/
+}
+
+.sideNavBarUP > ul > li a {
+  display: block;
+  color: #000001;
+  /*text-align: center;*/
+  padding: 12px;
+  margin: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Avenir-Medium";
+}
+
+.sideNavBarUP > ul > li a:hover,
+.activeSideNav {
+  color: $primaryColorOrange !important;
+  font-family: "Avenir-Heavy" !important;
+}
+
+.sideNavBarTitle {
+  background-color: #dbe1e9;
+  height: 2.2em;
+  line-height: 2.2em;
+  font-family: "Avenir-Heavy";
+}
+
+.sideNavBarUP > ul > li > ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1.5em;
+  overflow: hidden;
+}
+
+.sideNavBarUP > ul > li > ul > li > a {
+  color: #384150;
+  font-size: 16px;
+}
+
+.sideNavBarUP > ul > li > ul > li a:hover,
+.activeSubMenu {
+  background-color: $secondaryColorSkyBlue;
+  font-family: "Avenir-Roman" !important;
+  color: white !important;
+}

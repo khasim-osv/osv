@@ -1,0 +1,56 @@
+.isFlex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+}
+
+.searchBox > form {
+  display: flex;
+}
+
+.title {
+  font-family: "Avenir-Heavy";
+}
+
+.editTitle {
+  font-family: "Avenir-Heavy";
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.logoWrapper {
+  text-align: center;
+  padding-bottom: 1em;
+}
+.close {
+  float: right;
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.modal {
+  margin: 20px;
+}
+
+.clearBtn {
+  position: absolute;
+  margin: 9px -20px;
+}
+
+.allUserProfileWrapper {
+  display: flex;
+  margin-top: 4em;
+  font-family: "Avenir-book";
+}
+
+.allUserProfileContent {
+  box-shadow: 0 0 6px 0 rgba(191, 199, 208, 0.55);
+  width: 72em;
+  padding: 1.25em;
+}
+
+.addUserProfileLink {
+  text-align: end;
+  color: #5090f8;
+}

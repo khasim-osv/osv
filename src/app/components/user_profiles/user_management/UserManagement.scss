@@ -1,0 +1,41 @@
+.modal,
+.fullWidth {
+  width: 100%;
+}
+
+.outline {
+  border: 1px solid #bfc7d0;
+  padding: 2em;
+  width: 60%;
+  display: block;
+}
+
+.addMoreUserLink {
+  text-align: end;
+  color: #5090f8;
+}
+
+.flexProps,
+.approvalTable > div,
+.approvalTable > div > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+
+.flexProps > button {
+  width: 30%;
+}
+
+.flexProps > div {
+  width: 30%;
+}
+
+.reactSelect {
+  margin-right: 1em;
+  width: 10em;
+}
+
+.flex {
+  display: flex;
+}

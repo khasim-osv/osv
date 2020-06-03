@@ -1,0 +1,20 @@
+@import "../../Styles.scss";
+
+header {
+  height: 56px;
+  background: $primaryColorDarkBlue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header > div {
+  padding: 0 7em;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > div > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}

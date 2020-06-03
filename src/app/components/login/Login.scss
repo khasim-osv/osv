@@ -1,0 +1,31 @@
+@import "../../Styles.scss";
+
+.logoWrapper {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.logoWrapper > img {
+  width: 180px;
+}
+
+.loginBorder {
+  border: 1px solid #bfc7d0;
+  padding: 2em;
+  background-color: white;
+}
+
+.rememberMe {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+
+.rememberMe > div > label {
+  color: #8994a5;
+}
+
+.rememberMe > div > a {
+  color: $secondaryColorSkyBlue;
+  text-decoration: none;
+}

@@ -1,0 +1,62 @@
+//Color codes
+$primaryColorDarkBlue: #2a345e;
+$primaryColorOrange: #eb8b2d;
+$secondaryColorGreen: #28cc97;
+$secondaryColorRed: #ff4766;
+$secondaryColorSkyBlue: #5090f8;
+$secondaryColorYellow: #ffde4d;
+th {
+  padding-bottom: 0.5em;
+  text-align: left;
+}
+tr {
+  height: 80px;
+}
+.close {
+  margin: 20px;
+}
+//Common html elements css
+input[type="text"],
+input[type="password"],
+input [type="file"],
+input [type="email"] {
+  padding: 1.2em;
+  height: 1.5em;
+  width: 20em;
+  border-radius: 4px;
+  border: solid 1px #dbe1e9;
+  color: #384150;
+  font-size: 14px;
+  font-family: "Avenir-Roman";
+}
+.Cursor {
+  cursor: pointer;
+}
+select {
+  padding: 0.5em 1em;
+  height: 2.5em;
+  width: 22.5em;
+  border-radius: 4px;
+  border: solid 1px #dbe1e9;
+  color: #384150;
+  font-size: 14px;
+  font-family: "Avenir-Roman";
+}
+.disabledClass {
+  pointer-events: none;
+  color: grey;
+}
+.enabledClass {
+  color: red;
+}
+label,
+a {
+  font-family: "Avenir-Medium";
+  font-size: 14px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.7em;
+  font-family: "Avenir-Medium";
+}

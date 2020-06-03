@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?gqdzvc');
+  src:  url('icomoon.eot?gqdzvc#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?gqdzvc') format('truetype'),
+    url('icomoon.woff?gqdzvc') format('woff'),
+    url('icomoon.svg?gqdzvc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bell-copy:before {
+  content: "\e900";
+}
+.icon-Close-fill-button:before {
+  content: "\e901";
+}
+.icon-Close-outline-button:before {
+  content: "\e902";
+}
+.icon-Disabled:before {
+  content: "\e903";
+}
+.icon-Edit:before {
+  content: "\e904";
+}
+.icon-EditAfter:after {
+  content: "\e904";
+}
+.icon-Finger-print:before {
+  content: "\e905";
+}
+.icon-Green-check-mark:before {
+  content: "\e906";
+}
+.icon-redio-button-unfill:before {
+  content: "\e907";
+}
+.icon-right-mark:before {
+  content: "\e908";
+}
+.icon-search:before {
+  content: "\e909";
+}
+.icon-Settings:before {
+  content: "\e90a";
+}
+.icon-trash:before {
+  content: "\e90b";
+}
+.icon-up-arrow:before {
+  content: "\e90c";
+}
+.icon-user-profile:before {
+  content: "\e90d";
+}

@@ -1,0 +1,146 @@
+@import "../../Styles.scss";
+
+.wrapper {
+  display: flex;
+  margin-top: 4em;
+  /*margin-left: 8em;*/
+  font-family: "Avenir-book";
+}
+
+.isFlex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5em;
+  // margin-top: 250px;
+  margin-left: 50px;
+}
+
+.dataPrivacyContent {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+  margin-top: 25px;
+  //margin-left: 50px;
+}
+.dataPrivacyContent > span {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+  // margin-top: 250px;
+  margin-left: 50px;
+}
+
+.communicationContent {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+  margin-top: 25px;
+  //margin-left: 50px;
+}
+.communicationContent > div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+  // margin-top: 250px;
+  margin-left: 50px;
+}
+
+.communicationContent > div > span {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+  // margin-top: 250px;
+  margin-left: 50px;
+}
+
+.content {
+  width: 750px;
+  height: 657px;
+  // border: solid 1px #bfc7d0;
+  background-color: #ffffff;
+  margin-left: 18em;
+}
+
+#companyInfo {
+  height: 620px;
+}
+#signInSecurity,
+#workflowManagement {
+  height: 570px;
+}
+#bankAccounts,
+#roleManagement,
+#userManagement {
+  height: 700px;
+}
+
+.selectClass {
+  width: 20em;
+  height: 30px;
+  border: solid 1px #dbe1e9;
+  margin-top: 10px;
+}
+
+.content > div {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  border: solid 1px #bfc7d0;
+  height: 320px;
+  //margin-left: 20px;
+  margin-top: 20px;
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-separator {
+  color: #333;
+  margin: auto 6px;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #424548;
+}
+a:hover {
+  color: #1da2b3;
+}
+
+.successMessage {
+  color: green;
+  font-size: 1em;
+  font-family: "Avenir-Medium";
+  margin-left: 400px;
+}
+
+.breadCrumb {
+  border: solid 1px #0e2c4e;
+  //position: fixed;
+  width: 100%;
+  // margin-top: 0px;
+  padding: 0px;
+}
+
+button.link,
+.closeBtn,
+.editBtn,
+.addMoreAcc {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
